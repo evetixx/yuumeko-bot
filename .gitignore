@@ -1,0 +1,12 @@
+node_modules
+Kato.data.json
+package-lock.json
+config.json
+# managed
+**.data.json
+**.node-persist**
+# end managed
+
+# managed
+**_IGNORE_**
+# end managed
