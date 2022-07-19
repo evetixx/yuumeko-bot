@@ -1,0 +1,20 @@
+{
+  "name": "yuumeko-bot",
+  "description": "WhatsApp Bot",
+  "repository": "https://github.com/evetixx/yuumeko-bot",
+  "logo": "https://zenzapis.xyz/images/icon.jpg",
+  "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp self", "multi device"],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ],
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "free"
+    }
+  }
+}
+Footer
+© 2022 GitHub, Inc.
